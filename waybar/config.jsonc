@@ -1,0 +1,79 @@
+{
+    "layer": "top",
+    "position": "bottom",
+    "height": 14,
+    "width": "100%",
+    "spacing": 5,
+    "modules-left": ["hyprland/workspaces", "memory", "cpu", "custom/temps"],
+    "modules-center": ["mpris", "pulseaudio"],
+    "modules-right": ["network", "clock", "battery", "tray"],
+
+    "hyprland/workspaces": {
+        "format": "{name}",
+        "format-icons": {
+            "active": "*",
+            "urgent": "!",
+            "default": "o"
+        },
+        "persistent_workspaces": {
+            "*": []
+        },
+        "show-special": false
+    },
+
+    "memory": {
+        "interval": 2,
+        "format": "RAM {used:0.1f}G"
+    },
+
+    "cpu": {
+        "interval": 2,
+        "format": "CPU {usage}%"
+    },
+
+    "custom/temps": {
+        "exec": "sensors | grep 'CPU:' | awk '{print $2}' | sed 's/+//'",
+        "interval": 1,
+        "format": "{}"
+    },
+
+    "mpris": {
+        "interval": 1,
+        "format": "{title}",
+        "format-paused": "{title}",
+        "max-length": 100
+    },
+
+    "pulseaudio": {
+        "format": "VOL {volume}%",
+        "format-muted": "muted",
+        "scroll-step": 5
+    },
+
+    "network": {
+        "interface": "wlan0",
+        "interval": 1,
+        "format-wifi": "{ipaddr}, {signalStrength}%",
+        "format-disconnected": "disconnected"
+    },
+
+    "clock": {
+        "interval": 1,
+        "format": "{:%H:%M}",
+      //"format": "{:%Y-%m-%d %H:%M:%S}"
+    },
+
+    "battery": {
+        "bat": "BAT0",
+        "adapter": "AC",
+        "interval": 2,
+        "format": "{capacity}%",
+        "format-charging": "{capacity}% charging",
+        "format-full": "100%"
+    },
+
+    "tray": {
+        "spacing": 2,
+        "icon-size": 12
+    }
+}

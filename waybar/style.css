@@ -1,0 +1,55 @@
+* {
+    font-family: "Roboto Mono", "Noto Sans CJK JP", sans-serif;
+    letter-spacing: 2px;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+}
+
+#waybar {
+    background: rgba(0, 0, 0, 1);
+}
+
+#mpris {
+    min-width: 100px;
+}
+
+#workspaces button {
+    margin-top: -3px;
+    margin-bottom: -3px;
+    min-height: 0;
+    padding: 0px 5px;
+    color: #000000;
+}
+
+/*#workspaces button:hover {
+    background: inherit;
+    border-bottom: 1px solid #FFFFFF;
+}*/
+
+#workspaces button:hover {
+  box-shadow: inherit;
+  text-shadow: inherit;
+  color: inherit;
+  background: inherit;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+#workspaces button.focused {
+    border-bottom: 1px solid #FFFFFF;
+    color: #FFFFFF; 
+}
+
+#workspaces button.urgent {
+    background-color: #FF0000;
+    color: #FFFFFF;
+}
+
+#memory, #cpu, #custom-temps, #mpris, #pulseaudio, #network, #clock, #battery, #tray {
+    padding: 0 5px;
+}
+
+#tray > .passive {
+    color: #707880;
+}
+

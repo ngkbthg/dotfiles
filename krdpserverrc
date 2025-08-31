@@ -1,0 +1,3 @@
+[General]
+Certificate=/home/ngkbthg/.local/share/krdpserver/krdp.crt
+CertificateKey=/home/ngkbthg/.local/share/krdpserver/krdp.key

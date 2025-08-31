@@ -1,0 +1,54 @@
+[
+ {
+  "analyze": true,
+  "command": "/usr/lib/python3.13/site-packages/pychess/Players/PyChess.py",
+  "comment": "",
+  "country": "dk",
+  "level": 5,
+  "md5": "be6e594623ce6b20024914bcffba3f66",
+  "name": "PyChess.py",
+  "options": [
+   {
+    "default": false,
+    "name": "Ponder",
+    "type": "check"
+   },
+   {
+    "default": 0,
+    "max": 100,
+    "min": 0,
+    "name": "skipPruneChance",
+    "type": "spin"
+   }
+  ],
+  "protocol": "xboard",
+  "recheck": false,
+  "variants": [
+   "normal",
+   "wildcastle",
+   "nocastle",
+   "fischerandom",
+   "crazyhouse",
+   "light-brigade",
+   "losers",
+   "suicide",
+   "giveaway",
+   "horde",
+   "atomic",
+   "racingkings",
+   "seirawan",
+   "kingofthehill",
+   "3check",
+   "placement",
+   "asean",
+   "cambodian",
+   "makruk",
+   "sittuyin"
+  ],
+  "vm_args": [
+   "-u"
+  ],
+  "vm_command": "/usr/bin/python",
+  "vm_name": "python"
+ }
+]
