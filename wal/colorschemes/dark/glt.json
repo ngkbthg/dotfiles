@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/tienduc/downloads/anh/glt.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#050404",
+        "foreground": "#ddd9cc",
+        "cursor": "#ddd9cc"
+    },
+    "colors": {
+        "color0": "#050404",
+        "color1": "#958F74",
+        "color2": "#C5B87C",
+        "color3": "#949494",
+        "color4": "#A9A698",
+        "color5": "#A7A6A4",
+        "color6": "#DED39E",
+        "color7": "#ddd9cc",
+        "color8": "#9a978e",
+        "color9": "#958F74",
+        "color10": "#C5B87C",
+        "color11": "#949494",
+        "color12": "#A9A698",
+        "color13": "#A7A6A4",
+        "color14": "#DED39E",
+        "color15": "#ddd9cc"
+    }
+}

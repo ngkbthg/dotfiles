@@ -1,0 +1,26 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<channel name="xfce4-desktop" version="1.0">
+  <property name="last-settings-migration-version" type="uint" value="1"/>
+  <property name="backdrop" type="empty">
+    <property name="screen0" type="empty">
+      <property name="monitorLVDS-1" type="empty">
+        <property name="workspace0" type="empty">
+          <property name="last-image" type="string" value="/home/tienduc/downloads/anh/idk.jpg"/>
+        </property>
+      </property>
+    </property>
+  </property>
+  <property name="desktop-icons" type="empty">
+    <property name="file-icons" type="empty">
+      <property name="show-filesystem" type="string" value="true"/>
+      <property name="show-home" type="string" value="true"/>
+      <property name="show-trash" type="string" value="true"/>
+    </property>
+    <property name="style" type="int" value="0"/>
+  </property>
+  <property name="last" type="empty">
+    <property name="window-width" type="int" value="790"/>
+    <property name="window-height" type="int" value="606"/>
+  </property>
+</channel>

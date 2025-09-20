@@ -1,0 +1,61 @@
+[font]
+size = 11
+
+[font.bold]
+family = "Roboto Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "Roboto Mono"
+style = "Bold Italic"
+
+[font.italic]
+family = "Roboto Mono"
+style = "Light Italic"
+
+[font.normal]
+family = "Roboto Mono"
+style = "Light"
+
+[window]
+decorations = "full"
+dynamic_padding = true
+opacity = 0.6
+
+[window.padding]
+x = 5
+y = 5
+
+#[colors.normal]
+#black   = "#000000"
+#red     = "#FF0000"
+#green   = "#00FF00"
+#yellow  = "#FFFF00"
+#blue    = "#0000FF"
+#magenta = "#FF00FF"
+#cyan    = "#00FFFF"
+#white   = "#FFFFFF"
+
+#[colors.bright]
+#black   = "#555555"
+#red     = "#FF5555"
+#green   = "#55FF55"
+#yellow  = "#FFFF55"
+#blue    = "#5555FF"
+#magenta = "#FF55FF"
+#cyan    = "#55FFFF"
+#white   = "#FFFFFF"
+
+#[colors.primary]
+#background = "#000000"
+#foreground = "#FFFFFF"
+
+[env]
+WINIT_XIM_PREEDIT_STYLE = "over-the-spot"
+GTK_IM_MODULE=""
+QT_IM_MODULE=""
+
+[cursor]
+style = "Underline"
+blink_interval = 50
+

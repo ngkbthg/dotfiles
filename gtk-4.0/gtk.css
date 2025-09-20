@@ -1,0 +1,10 @@
+@import 'colors.css';
+.window, .background, .view, .frame, .toolbar {
+    background-color: rgba(0,0,0,0);
+    background-image: none;
+}
+headerbar {
+    background: transparent;
+    backdrop-filter: blur(10px);
+}
+@import url("resource:///org/gnome/adwaita/gtk-contained-dark.css");

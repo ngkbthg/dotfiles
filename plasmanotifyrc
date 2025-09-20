@@ -1,0 +1,11 @@
+[Applications][@other]
+ShowPopups=false
+
+[Applications][firefox]
+Seen=true
+
+[Applications][zen]
+Seen=true
+ShowBadges=false
+ShowInHistory=false
+ShowPopups=false
