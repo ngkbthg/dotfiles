@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Network manager
+nm-applet &
+
+# Picom blur
+picom --config ~/.config/picom.conf --backend glx --experimental-backends -b &
+
+# Volume icon (nếu cần)
+volumeicon &
+
+# Background image (nếu dùng feh)
+#feh --bg-fill ~/Downloads/anh/frieren.jpg &

@@ -1,0 +1,109 @@
+configuration {
+  modi: "drun,run,ssh";
+  width: 50;
+  lines: 10;
+  columns: 1;
+  font: "Roboto Mono Light 12";
+  bw: 1;
+  location: 0;
+  padding: 5;
+  yoffset: 0;
+  xoffset: 0;
+  fixed-num-lines: true;
+  show-icons: false;
+  terminal: "alacritty";
+  ssh-client: "ssh";
+}
+
+* {
+
+  background: rgba(0, 0, 0, 1);
+  text-color: #ffffff;
+
+  border-color: #ffffff;
+  separator-color: #ffffff;
+
+  font: "Roboto Mono Light 15";
+}
+
+window {
+  border: 1px;
+  padding: 10px;
+  border-radius: 0px;
+}
+
+mainbox {
+  border: 0px;
+  padding: 0px;
+}
+
+inputbar {
+  children: [ prompt, entry ];
+  background-color: rgba(0, 0, 0, 1);
+  padding: 5px;
+  border-radius: 3px;
+}
+
+prompt {
+  background-color: rgba(0, 0, 0, 1);
+  padding: 5px;
+  border-radius: 0px;
+  text-color: #ffffff;
+}
+
+entry {
+  text-color: #ffffff;
+  padding: 5px;
+}
+
+listview {
+  spacing: 2px;
+  fixed-height: false;
+  border: 0px;
+  padding: 5px 0px 0px 0px;
+  scrollbar: false;
+}
+
+element {
+  padding: 5px;
+  border-radius: 0px;
+  background: transparent;
+}
+
+element normal normal {
+  background-color: rgba(0, 0, 0, 1);
+  text-color: #555555;
+}
+
+element selected normal {
+  background-color: rgba(255, 255, 255, 0.05);
+  text-color: #ffffff;
+}
+
+element alternate normal {
+  background-color: rgba(0, 0, 0, 1);
+  text-color: #555555;
+}
+
+button {
+  background-color: #000000;
+  text-color: #ffffff;
+  padding: 5px;
+  border-radius: 0px;
+}
+
+button selected {
+  background-color: rgba(0, 0, 0, 1);
+  text-color: #ffffff;
+}
+
+message {
+  padding: 5px;
+  border: 0px;
+  border-radius: 0px;
+  background: transparent ;
+}
+
+textbox {
+  text-color: #ffffff;
+}
