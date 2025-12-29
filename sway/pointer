@@ -1,9 +1,0 @@
-input "12625:12320:YICHIP_Wireless_Device_Consumer_Control" {
-  accel_profile flat
-  pointer_accel 1.0
-  natural_scroll disabled
-  scroll_factor 1.0
-  scroll_button BTN_MIDDLE
-  left_handed true
-  middle_emulation disabled
-}
