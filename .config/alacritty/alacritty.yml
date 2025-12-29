@@ -1,0 +1,23 @@
+window:
+  opacity: 0.0  
+  decorations: full
+  dynamic_padding: true
+  padding:
+    x: 5
+    y: 5
+
+font:
+  normal:
+    family: "Roboto Mono"
+    style: Light
+  bold:
+    family: "Roboto Mono"
+    style: Normal
+  italic:
+    family: "Roboto Mono"
+    style: Light Italic
+  bold_italic:
+    family: "Roboto Mono"
+    style: Italic
+  size: 9
+

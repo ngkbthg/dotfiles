@@ -1,0 +1,35 @@
+@import 'colors.css';
+/*.window, .background, .view, .frame {
+    background-color: rgba(0,0,0,0.8);
+    background-image: none;
+    box-shadow: none;
+}
+.thunar, .thunar-window, .nemo-window, .window, .background, .view, .frame {
+    background-color: rgba(0,0,0,0.8);
+    background-image: none;
+    box-shadow: none;
+}
+.thunar, .thunar-window, .nemo, .nemo-window, * {
+    color: #ffffff; 
+}
+.thunar, .nemo, .nemo-window, .thunar-window {
+    background-color: rgba(0,0,0,0.8);
+    background-image: none;
+    box-shadow: none;
+}
+
+.view {
+    background-color: transparent;
+    color: #ffffff !important;
+}
+
+.sidebar .view {
+    background-color: transparent;
+    color: #ffffff !important;
+}
+
+label, .toolbar, .toolbar * {
+    color: #ffffff !important;
+}
+*/
+
