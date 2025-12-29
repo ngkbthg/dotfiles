@@ -7,7 +7,7 @@
 }
 
 window#waybar {
-    background: rgba(0, 0, 0, 1);
+    background: rgba(0, 0, 0, 0);
     color: #FFFFFF;
 }
 
@@ -22,7 +22,7 @@ window#waybar {
 }
 
 #workspaces button.active {
-    background: rgba(0, 0, 0, 1);
+    background: rgba(0, 0, 0, 0);
     border-bottom: 1px solid #FFFFFF;
 }
 
